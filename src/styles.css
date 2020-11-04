@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#quote-box {
+  width: 70vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: #14274e;
+  border-radius: 12px;
+}
+
+#text {
+  width: 50vw;
+  text-align: center;
+  color: #f1f6f9;
+  font-size: 56px;
+  padding-bottom: 44px;
+}
+
+#author {
+  align-self: center;
+  color: #9ba4b4;
+  font-size: 24px;
+  font-family: sans-serif;
+  padding-bottom: 24px;
+}
+
+#new-quote {
+  border: none;
+  color: #14274e;
+  width: 220px;
+  height: 54px;
+  background-color: #f1f6f9;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+#tweet-quote {
+  padding-top: 12px;
+  color: white;
+  font-size: 16px;
+}
